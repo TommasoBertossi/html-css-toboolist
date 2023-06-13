@@ -49,6 +49,12 @@ header{
 a{
     text-decoration: none;
     color: white;
+    display: inline-block;
+    height: 30px;
+    width: 90px;
+    background-color: #47adf1;
+    text-align: center;
+    border-radius: 10px;
 }
 
 ul{
@@ -69,4 +75,18 @@ ul{
 
   .color-gray{
     color: gray;
+  }
+
+  .check{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border-color: green;
+  }
+
+  .cross{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border-color: red;
   }

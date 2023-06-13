@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: #f6f8f9;
 }
 
 h1{
@@ -38,7 +38,7 @@ header{
 
 .small{
     height: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     padding-top: 20px;
 }
 
@@ -55,4 +55,18 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  #task{
+    background-color: #47adf1;
+    border-radius: 5px;
+  }
+
+  #secton{
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .color-gray{
+    color: gray;
   }

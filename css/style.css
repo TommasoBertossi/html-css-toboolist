@@ -4,7 +4,14 @@ body{
 
 h1{
     display: inline-block;
+    vertical-align: middle;
 }
+
+main{
+    margin: 200px;
+    margin-top: 20px;
+}
+
 
 #New-task{
     margin: 0;
@@ -12,7 +19,13 @@ h1{
 
 .title{
     background-color: white;
+    vertical-align: middle;
 
+}
+
+#logo{
+    vertical-align: middle;
+    width: 50px;
 }
 
 header{
@@ -20,11 +33,13 @@ header{
 }
 .container{
     background-color: white;
+    padding-left: 40px;
 }
 
 .small{
     height: 50px;
     margin-bottom: 5px;
+    padding-top: 20px;
 }
 
 .big{
@@ -35,3 +50,9 @@ a{
     text-decoration: none;
     color: white;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }

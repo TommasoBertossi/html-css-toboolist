@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    display: inline-block;
+}
+
+.title{
+    background-color: white;
+
+}
+
+header{
+    margin-bottom: 50px;
+}
+.container{
+    background-color: white;
+}
+
+.small{
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.big{
+    margin-top: 0px;
+}
